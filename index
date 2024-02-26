@@ -1,0 +1,92 @@
+<!doctype html>
+<!-- This website was created by: Bryn Batten -->
+
+<html lang="en">
+    <head>
+        <title>Bryn Batten</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport"content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Share&family=Tourney:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <!-- header area/logo -->
+        <div id="container">
+            <header>
+                <a href="index.html"><img src="images/bryn-batten-logo.jpg" alt="Bryn Batten logo"></a>
+            </header>
+
+        <!-- navigation -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- main content -->
+        <main id="content">
+            <center><img src="images/hitting.jpg" alt="Bryn hitting" class="center"></center>
+            <div class="tab-desk">
+                <h1>Welcome!</h1>
+                <p>My name is Bryn Batten and I am a sophomore attending Skagit Valley College in Mount Vernon, Washington. I am a pin hitter and hope to play at the next level.</p>
+
+            <div id="stats">
+                <h2>Statistics</h2>
+                <table>
+                        <tr>
+                            <td>Positions</td>
+                            <td>OH, OPP</td>
+                        </tr>
+                        <tr>
+                            <td>Height</td>
+                            <td>5'11''</td>
+                        </tr>
+                        <tr>
+                            <td>Weight</td>
+                            <td>143lbs</td>
+                        </tr>
+                        <tr>
+                            <td>Approach Touch 1 Arm</td>
+                            <td>10'</td>
+                        </tr>
+                        <tr>
+                            <td>Class of</td>
+                            <td>2024 (Transfer/Associates)</td>
+                        </tr>
+                        <tr>
+                            <td>Major</td>
+                            <td>Computer Science</td>
+                        </tr>
+                </table>
+            </div>
+
+            <div id="awards">
+                <h2>Awards</h2>
+                <table>
+                    <tr><td>Varsity Award</td></tr>
+                    <tr><td>Saline Scholar Athlete</td></tr>
+                    <tr><td>2019 Offensive MVP</td></tr>
+                    <tr><td>2020 All-Conference</td></tr>
+                    <tr><td>2020 MIVCA All-Region</td></tr>
+                    <tr><td>2022 NWAC Offensive Player of the Week</td></tr>
+                    <tr><td>2022 NWAC North Region MVP</td></tr>
+                    <tr><td>2022 AVCA Third Team All-American</td></tr>
+                    <tr><td>2022 NWAC First Team All-Conference</td></tr>
+                    <tr><td>2023 Team Captain</td></tr>
+                    <tr><td>2023 NWAC All-Region</td></tr>
+                </table>
+            </div> 
+         </div>
+        </main>
+
+        <!-- footer content -->
+        <footer>
+            <p>&copy; Copyright 2023. All Rights Reserved.</p>
+        </div>
+    </body>    
+</html>
