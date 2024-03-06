@@ -15,23 +15,33 @@
 
         <!-- header area/logo -->
         <div id="container">
-            <header>
-                <a href="index.html"><img src="images/bryn-batten-logo.jpg" alt="Bryn Batten logo"></a>
-            </header>
+        <!-- mobile navigation -->
+        <nav class="mobile-nav">
+		<div id="menu-links">
+                	<a href="index.html">Home</a>
+                	<a href="video.html">Video</a>
+                	<a href="contact.html">Contact</a>
+		</div>
+            <a class="menu-icon" onclick="hamburger()">
+		<div>&#9776;</div></a>
+        </nav>
+	<!-- header -->
+	<header>
+        	<a href="index.html"><img src="images/bryn-batten-logo.jpg" alt="Bryn Batten logo"></a>
+        </header>
 
-        <!-- navigation -->
-        <nav>
+	<!-- tablet, desktop nav -->
+	 <nav class="tablet-desktop">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="video.html">Video</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
-            <a class="menu-icon" onclick="hamburger()">
-				<div>&#9776;</div></a>
-        </nav>
-
+	 </nav>
+		
         <!-- main content -->
-            <div class="tab-desk">
+	<main id="content">
+            <div class="mobile">
                 <h1>Welcome!</h1>
                 <p>My name is Bryn Batten and I am a sophomore attending Skagit Valley College in Mount Vernon, Washington. I am a pin hitter and hope to play at the next level.</p>
 
@@ -82,6 +92,69 @@
                 </table>
             </div> 
          </div>
+
+	<div class="tablet-desktop">
+        	 <h1>Welcome!</h1>
+                <p>My name is Bryn Batten and I am a sophomore attending Skagit Valley College in Mount Vernon, Washington. I am a pin hitter and hope to play at the next level.</p>
+
+        <div id="stats">
+                <h2>Statistics</h2>
+                <table>
+                        <tr>
+                            <td>Positions</td>
+                            <td>OH, OPP</td>
+                        </tr>
+                        <tr>
+                            <td>Height</td>
+                            <td>5'11''</td>
+                        </tr>
+                        <tr>
+                            <td>Weight</td>
+                            <td>143lbs</td>
+                        </tr>
+                        <tr>
+                            <td>Approach Touch 1 Arm</td>
+                            <td>10'</td>
+                        </tr>
+                        <tr>
+                            <td>Class of</td>
+                            <td>2024 (Transfer/Associates)</td>
+                        </tr>
+                        <tr>
+                            <td>Major</td>
+                            <td>Computer Science</td>
+                        </tr>
+                </table>
+            </div>
+
+            <div id="awards">
+                <h2>Awards</h2>
+                <table>
+                    <tr><td>Varsity Award</td></tr>
+                    <tr><td>Saline Scholar Athlete</td></tr>
+                    <tr><td>2019 Offensive MVP</td></tr>
+                    <tr><td>2020 All-Conference</td></tr>
+                    <tr><td>2020 MIVCA All-Region</td></tr>
+                    <tr><td>2022 NWAC Offensive Player of the Week</td></tr>
+                    <tr><td>2022 NWAC North Region MVP</td></tr>
+                    <tr><td>2022 AVCA Third Team All-American</td></tr>
+                    <tr><td>2022 NWAC First Team All-Conference</td></tr>
+                    <tr><td>2023 Team Captain</td></tr>
+                    <tr><td>2023 NWAC All-Region</td></tr>
+                </table>
+            </div> 
+         </div>
+
+	<div class="grid">
+		<figure class="frame">
+			<a href="video.html"><img src="images/cheer.jpg" alt="cheering"></a>
+				<figcaption class="pic-text">Videos</figcaption>
+		</figure>
+		<figure class="frame">
+			<a href="contact.html"><img src="images/food-heart.jpg" alt="healthy food in the shape of a heart"></a>
+				<figcaption class="pic-text">Contact</figcaption>
+		</figure>		
+		</div>
         </main>
 
         <!-- footer content -->
