@@ -33,6 +33,23 @@ header img {
     border: 10px solid #B22222; 
     padding: 0; 
 }
+/* Style rules for hamburger meu */
+.mobile-nav a {
+	color: #fff;
+	font-family: 'Francois One', sans-serif;
+	text-align: center;
+	font-size: 2em;
+	text-decoration: none;
+	padding: 3%;
+	display: block;
+}
+
+.mobile-nav a.menu-icon {
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
 /* Style rules for navigation area */
 nav {
 	padding: 0;
