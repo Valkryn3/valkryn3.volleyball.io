@@ -333,7 +333,7 @@ aside {
 table {
 	border: 1px solid #000;
 	border-collapse: collapse;
-	margin: 0 auto;
+	margin-right: 20px;
 	width: 50%;
 }
 
@@ -415,6 +415,10 @@ main h1 {
 	padding: 20px;
 }
 
+table {
+	width: 50%;
+}
+
 .frame {
 	opacity: 0.9;
 }
@@ -446,7 +450,7 @@ form {
 	margin: 0 auto;
 }
 table {
-	width: 80%;
+	width: 50%;
 }
 }
 
