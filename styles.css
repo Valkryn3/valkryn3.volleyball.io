@@ -286,7 +286,7 @@ aside {
 table {
 	border: 1px solid #000;
 	border-collapse: collapse;
-	margin-right: 20px;
+	margin: 0 auto;
 	width: 50%;
 }
 .table-container{
