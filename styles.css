@@ -336,6 +336,9 @@ table {
 	margin-right: 20px;
 	width: 50%;
 }
+.table-container{
+	display: flex;
+}
 
 caption {
 	font-size: 1.5em;
