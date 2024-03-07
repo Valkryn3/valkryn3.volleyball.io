@@ -134,7 +134,7 @@ main {
 .tab-desk{
 	margin-top: 20px;
 }
-table{
+table {
 	border: 1px solid #373684;
 	border-collapse: collapse;
 	margin: 0 auto;
@@ -334,7 +334,7 @@ table {
 	border: 1px solid #000;
 	border-collapse: collapse;
 	margin: 0 auto;
-	width: 100%;
+	width: 50%;
 }
 
 caption {
