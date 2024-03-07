@@ -8,7 +8,7 @@ body, header, nav, main, footer, h1, div, img, ul, figure, figcaption, video{
 body {
 	background-color:#B22222;
 }
-img {
+img, video {
 	max-width: 100%;
 	display: block;
 }
@@ -88,6 +88,10 @@ main {
 	font-size: 1.15em;
 	text-align: center;
 	font-family: 'Share', sans-serif;
+}
+
+video {
+	margin: 0 auto 4%;
 }
 .frame {
 	position: relative;
