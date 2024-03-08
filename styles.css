@@ -175,9 +175,9 @@ tr:nth-child(odd) {
   	padding: 5px;
 }
 .video-container {
-    border: 2px solid black; /* Add border around the container */
-    margin: auto; /* Center the container */
-    max-width: 80%; /* Limit the width of the container */
+    border: 20px solid black; 
+    margin: auto; 
+    max-width: 80%; 
 }
 * {box-sizing:border-box}
 #contact {
