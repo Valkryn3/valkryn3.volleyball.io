@@ -179,6 +179,16 @@ tr:nth-child(odd) {
     margin: auto; 
     max-width: 80%; 
 }
+.center-block {
+    width: 50%; 
+    margin: 0 auto; 
+    background-color: #A12D14; 
+    height: 100vh; 
+    position: fixed; 
+    left: 25%; /
+    z-index: -1; 
+}
+
 * {box-sizing:border-box}
 #contact {
 	text-align: center;
