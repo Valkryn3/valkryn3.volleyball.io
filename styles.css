@@ -12,14 +12,6 @@ img {
 	max-width: 100%;
 	display: block;
 }
- iframe {
-        position: absolute;
-    	top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        border: none;
-}
 /* Style rules for mobile viewport */
 /* Style rule for header */
 header {
@@ -386,14 +378,6 @@ form {
 }
 .btn {
 	grid-column: 1 / span 2;
-}
-iframe {
-        position: absolute;
-    	top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        border: none;
 }
 /* Media Query for Large Desktop Viewports */
 @media screen and (min-width: 1921px) {
