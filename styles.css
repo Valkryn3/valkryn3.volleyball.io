@@ -175,12 +175,7 @@ tr:nth-child(odd) {
   	padding: 5px;
 }
  iframe {
-	position: absolute;
-	top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 80%; 
-        height: auto; 
+        transform: translate(-50%, -50%); 
         border: 2px solid black;
         box-sizing: border-box; 
         }
