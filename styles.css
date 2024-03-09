@@ -201,7 +201,7 @@ tr:nth-child(odd) {
 	margin: 0 auto;
 	background-color: #f2f2f2;
 	padding: 2%;
-	width: auto;
+	width: 70%;
 	
 }
 #form h2 {
@@ -387,7 +387,7 @@ table {
 }
 /* Desktop Viewport: Style rules for form elements */
 form {
-	width: auto;
+	width: 70%;
 }
 .form-grid {
 	display: grid;
