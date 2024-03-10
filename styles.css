@@ -175,41 +175,42 @@ tr:nth-child(odd) {
   	padding: 5px;
 }
 .video-container {
-    border: 20px solid black; 
-    margin: auto; 
-    max-width: 80%; 
+	border: 20px solid black; 
+	margin: auto; 
+	max-width: 80%; 
 }
 .center-block {
-    width: 50%; 
-    margin: 0 auto; 
-    background-color: #A12D14; 
-    height: 100vh; 
-    position: fixed; 
-    left: 25%; /
-    z-index: -1; 
+	width: 50%; 
+	margin: 0 auto; 
+	background-color: #A12D14; 
+	height: 100vh; 
+	position: fixed; 
+	left: 25%; 
+    	z-index: -1; 
 }
 
 * {box-sizing:border-box}
 
  .slideshow-container {
-    max-width: 800px;
-    position: relative;
-    margin: auto;
+	 max-width: 800px;
+	 position: relative;
+	 margin: auto;
   }
 
   .slideshow-container img {
-    width: 100%;
-    height: auto;
+	  width: 100%;
+	  height: auto;
+	  display: none;
   }
 
   .fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
+	  animation-name: fade;
+	  animation-duration: 1.5s;
   }
 
   @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
+	  from {opacity: .4}
+	  to {opacity: 1}
   }
 
 #contact {
