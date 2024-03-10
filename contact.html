@@ -13,21 +13,29 @@
     </head>
     <body>
 
-        <!-- header area/logo -->
-        <div id="container">
-            <header>
-                <a href="index.html"><img src="images/bryn-batten-logo.jpg" alt="Bryn Batten logo"></a>
-            </header>
+         <!-- mobile navigation -->
+        <nav class="mobile-nav">
+		<div id="menu-links">
+                	<a href="index.html">Home</a>
+                	<a href="video.html">Video</a>
+                	<a href="contact.html">Contact</a>
+		</div>
+            <a class="menu-icon" onclick="hamburger()">
+		<div>&#9776;</div></a>
+        </nav>
+	<!-- header -->
+	<header>
+        	<a href="index.html"><img src="images/bryn-batten-logo.jpg" alt="Bryn Batten logo"></a>
+        </header>
 
-        <!-- navigation -->
-        <nav>
+	<!-- tablet, desktop nav -->
+	 <nav class="tablet-desktop">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="video.html">Video</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
-        </nav>
-
+	 </nav>
         <main>
 		<div class="slideshow-container">
   			<div class="mySlides fade">
