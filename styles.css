@@ -189,26 +189,17 @@ tr:nth-child(odd) {
 * {box-sizing:border-box}
 
  .slideshow-container {
-	 max-width: 800px;
 	 position: relative;
+	 max-width: 1000px;
 	 margin: auto;
   }
-
-  .slideshow-container img {
-	  width: 100%;
-	  height: auto;
-	  display: none;
-  }
-
-  .fade {
-	  animation-name: fade;
-	  animation-duration: 1.5s;
-  }
-
-  @keyframes fade {
-	  from {opacity: .4}
-	  to {opacity: 1}
-  }
+.mySlides{
+	diaplay: none;
+}
+img{
+	width: 100%
+	height: auto;
+}
 
 #contact {
 	text-align: center;
