@@ -467,7 +467,7 @@ table {
 	transform: translateY(10px);
 }
 .video-container{
-	max-width: 90%
+	max-width: 60%
 }
 /* Desktop Viewport: Style rules for form elements */
 form {
@@ -491,7 +491,7 @@ table {
 	width: 50%;
 }
 .video-container{
-	max-width: 90%
+	max-width: 60%
 }
 }
 /* Media Query for Print */
