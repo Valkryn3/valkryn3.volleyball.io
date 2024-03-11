@@ -174,7 +174,7 @@ tr:nth-child(odd) {
 .video-container {
 	border: 20px solid black; 
 	margin: auto; 
-	max-width: 80%; 
+	max-width: 100%; 
 }
 .center-block {
 	width: 50%; 
