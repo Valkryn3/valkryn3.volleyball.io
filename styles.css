@@ -378,7 +378,10 @@ aside {
 .grid-item4 {
 	grid-column:1 / span 3;
 }
-	/* Tablet Viewport: Style rules for table */
+.video-container{
+	max-width: 90%
+}
+/* Tablet Viewport: Style rules for table */
 table {
 	border: 1px solid #000;
 	border-collapse: collapse;
@@ -463,6 +466,9 @@ table {
 	box-shadow: 8px 8px 10px #808080;
 	transform: translateY(10px);
 }
+.video-container{
+	max-width: 90%
+}
 /* Desktop Viewport: Style rules for form elements */
 form {
 	width: 70%;
@@ -483,6 +489,9 @@ form {
 }
 table {
 	width: 50%;
+}
+.video-container{
+	max-width: 90%
 }
 }
 /* Media Query for Print */
