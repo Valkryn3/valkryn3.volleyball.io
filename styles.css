@@ -185,10 +185,6 @@ tr:nth-child(odd) {
 	left: 25%; 
     	z-index: -1; 
 }
-iframe{
-	border: 3px:
-	border-color: #EEE;
-}
 * {box-sizing:border-box}
 /* Slideshow container */
 .slideshow-container {
